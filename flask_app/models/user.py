@@ -1,7 +1,7 @@
-from mysqlconnection import connectToMySQL
+from flask_app.config.mysqlconnection import connectToMySQL
 
+# user.py
 class User:
-
     DB = "user_cr"
 
     def __init__(self, data):
